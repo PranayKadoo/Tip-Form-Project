@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(253, 201, 227);
+}
+.parent{
+    position: relative;
+    height: 60vw;
+    background-color: white;
+    width:60%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    left:15%;
+    right:20%;
+    padding:20px;
+    border: 2vw solid rgb(253, 201, 227);
+    border-radius: 4vw ;
+}
+.child1{
+    position: absolute;
+    width:98%;
+    height: auto;
+    top:0;
+    right:0%;
+    left:0%;
+    height: 7vw;
+    background-color: hotpink;
+    text-align: center;
+    border: 1vw solid hotpink;
+    border-radius: 2vw ;
+    margin-bottom: 30px ;
+}
+.child1h1{
+    font-size: 3vw;
+    color:white
+}
+.child2{
+    /* position: absolute; */
+    /* top:12%; */
+    right:20%;
+    left:20%;
+    margin-top: 10vw;
+}
+.child2h2{
+    font-size: 2vw;
+}
+.child3{
+    /* position: absolute; */
+    /* top: 65%; */
+    right:30%;
+    left:30%;
+    margin-top: 2vw;
+}
+.child3 button{
+    font-size: 4vw;
+    color:white;
+    background-color: rgb(253, 125, 194);
+}
+.child4{
+    /* position: absolute; */
+    /* top:75%; */
+    right:10%;
+    left:10%;
+    font-size: 1vw;
+    background-color: white;
+}
+#text1, #text2, #text3{
+    font-size: 4vw;
+    text-align: center;
+}
